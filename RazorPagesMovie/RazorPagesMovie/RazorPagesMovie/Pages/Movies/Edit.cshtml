@@ -50,6 +50,10 @@
     <a asp-page="./Index">Back to List</a>
 </div>
 
+<div>
+    @await Component.InvokeAsync("MovieList")
+</div>
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

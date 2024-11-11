@@ -1,0 +1,9 @@
+﻿@model IEnumerable<RazorPagesMovie.Models.Movie>
+
+<h3>Movie List</h3>
+<ul>
+    @foreach (var movie in Model)
+    {
+        <li>@movie.Title - @movie.Price</li>
+    }
+</ul>

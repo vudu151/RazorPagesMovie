@@ -69,3 +69,13 @@
 }
     </tbody>
 </table>
+
+
+<div>
+    @await Html.PartialAsync("_MovieForm", new RazorPagesMovie.Models.Movie())
+</div>
+
+
+<div>
+    @await Component.InvokeAsync("MovieList")
+</div>

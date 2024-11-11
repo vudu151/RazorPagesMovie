@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h+sMRl5wm2k=",
+  "dgSpecHash": "78X2inzl/t8=",
   "success": true,
-  "projectFilePath": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
+  "projectFilePath": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vudu1\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vudu1\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

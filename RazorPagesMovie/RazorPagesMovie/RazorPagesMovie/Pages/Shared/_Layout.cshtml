@@ -1,51 +1,168 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - RazorPagesMovie</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/RazorPagesMovie.styles.css" asp-append-version="true" />
+
+    <!-- Tải font từ Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Thêm FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="~/css/output.css" />
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">RazorPagesMovie</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
+
+<body class="flex flex-col min-h-screen">
+    <nav class="bg-white shadow flex items-center justify-between p-2 ">
+        <ul class="flex px-4 py-2">
+            <li>
+                <a class="text-header hover:text-hover-header">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </li>
+            <li class="sm:block">
+                <a class="px-4 py-2 text-header hover:text-hover-header" href="/">Home page</a>
+            </li>
+            <li class="sm:block">
+                <a class="px-4 py-2 text-header hover:text-hover-header" href="/">About</a>
+            </li>
+        </ul>
+
+        <ul class="flex ml-auto px-4 py-2">
+            <li class="relative my-auto px-8">
+                <a href="#" class="flex flex-row justify-between items-center text-gray-800 hover:text-hover-header"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">
+                    <img src="~/flags/vn.png" alt="Vietnam Flag"
+                        class="w-[16px] h-[11px] object-contain my-auto mr-0.5" />
+                    <span class="hidden md:inline text-header hover:text-hover-header">Vietnam</span>
+                </a>
+                <div
+                    class="absolute w-40 right-0 mt-2 mr-6 bg-white border border-gray-300 rounded shadow-lg hidden dropdown-menu">
+                    <a class="flex flex-row justify-stretch px-4 py-1 text-gray-800 hover:bg-gray-100" href="#">
+                        <img src="~/flags/us.png" alt="United States Flag"
+                            class="w-[16px] h-[11px] object-contain my-auto" />
+                        <span class="inline md:inline pl-3 text-header hover:text-hover-header">United States</span>
+                    </a>
+                    <a class="flex flex-row justify-stretch px-4 py-1 text-gray-800 hover:bg-gray-100" href="#">
+                        <img src="~/flags/af.png" alt="Afghanistan Flag"
+                            class="w-[16px] h-[11px] object-contain my-auto" />
+                        <span class="inline md:inline pl-3 text-header hover:text-hover-header">Afghanistan</span>
+                    </a>
+                    <a class="flex flex-row justify-stretch px-4 py-1 text-gray-800 hover:bg-gray-100" href="#">
+                        <img src="~/flags/fr.png" alt="France Flag" class="w-[16px] h-[11px] object-contain my-auto" />
+                        <span class="inline md:inline pl-3 text-header hover:text-hover-header">France</span>
+                    </a>
+                    <a class="flex flex-row justify-stretch px-4 py-1 text-gray-800 hover:bg-gray-100" href="#">
+                        <img src="~/flags/de.png" alt="Germany Flag" class="w-[16px] h-[11px] object-contain my-auto" />
+                        <span class="inline md:inline pl-3 text-header hover:text-hover-header">Germany</span>
+                    </a>
+                    <a class="flex flex-row justify-stretch px-4 py-1 text-gray-800 hover:bg-gray-100" href="#">
+                        <img src="~/flags/jp.png" alt="Japan Flag" class="w-[16px] h-[11px] object-contain my-auto" />
+                        <span class="inline md:inline pl-3 text-header hover:text-hover-header">Japan</span>
+                    </a>
+                    <a class="flex flex-row justify-stretch px-4 py-1 text-gray-800 hover:bg-gray-100" href="#">
+                        <img src="~/flags/it.png" alt="Italy Flag" class="w-[16px] h-[11px] object-contain my-auto" />
+                        <span class="inline md:inline pl-3 text-header hover:text-hover-header">Italy</span>
+                    </a>
+                    <a class="flex flex-row justify-stretch px-4 py-1 text-gray-800 hover:bg-gray-100" href="#">
+                        <img src="~/flags/ca.png" alt="Canada Flag" class="w-[16px] h-[11px] object-contain my-auto" />
+                        <span class="inline md:inline pl-3 text-header hover:text-hover-header">Canada</span>
+                    </a>
+                    <a class="flex flex-row justify-stretch px-4 py-1 text-gray-800 hover:bg-gray-100" href="#">
+                        <img src="~/flags/in.png" alt="India Flag" class="w-[16px] h-[11px] object-contain my-auto" />
+                        <span class="inline md:inline pl-3 text-header hover:text-hover-header">India</span>
+                    </a>
+                    <a class="flex flex-row justify-stretch px-4 py-1 text-gray-800 hover:bg-gray-100" href="#">
+                        <img src="~/flags/mx.png" alt="Mexico Flag" class="w-[16px] h-[11px] object-contain my-auto" />
+                        <span class="inline md:inline pl-3 text-header hover:text-hover-header">Mexico</span>
+                    </a>
+                    <a class="flex flex-row justify-stretch px-4 py-1 text-gray-800 hover:bg-gray-100" href="#">
+                        <img src="~/flags/br.png" alt="Brazil Flag" class="w-[16px] h-[11px] object-contain my-auto" />
+                        <span class="inline md:inline pl-3 text-header hover:text-hover-header">Brazil</span>
+                    </a>
+                    <a class="flex flex-row justify-stretch px-4 py-1 text-gray-800 hover:bg-gray-100" href="#">
+                        <img src="~/flags/ru.png" alt="Russia Flag" class="w-[16px] h-[11px] object-contain my-auto" />
+                        <span class="inline md:inline pl-3 text-header hover:text-hover-header">Russia</span>
+                    </a>
+                    <a class="flex flex-row justify-stretch px-4 py-1 text-gray-800 hover:bg-gray-100" href="#">
+                        <img src="~/flags/za.png" alt="South Africa Flag"
+                            class="w-[16px] h-[11px] object-contain my-auto" />
+                        <span class="inline md:inline pl-3 text-header hover:text-hover-header">South Africa</span>
+                    </a>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+            </li>
+
+            <li class="relative my-auto">
+                <a href="#" class="text-gray-800 hover:text-blue-500" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false" role="button">
+                    <img class="w-5 h-5 rounded-full" src="~/img/avatar.png" alt="User Image">
+                </a>
+                <div
+                    class="absolute right-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg hidden dropdown-menu">
+                    <a class="block px-4 py-2 text-gray-800 hover:bg-gray-100" href="#">
+                        <i class="fas fa-user-edit"></i> Update Password
+                    </a>
+                    <a class="block px-4 py-2 text-gray-800 hover:bg-gray-100" href="#">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <a class="brand-link" href="/">
+            <img src="/img/logo.png" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+            <span class="brand-text font-weight-light">Demo</span>
+        </a>
+
+
+    </aside>
+
+
+    <div class="bg-gray-100 flex-grow">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - RazorPagesMovie - <a asp-area="" asp-page="/Privacy">Privacy</a>
+
+    <footer class="p-4 bg-white text-[#869099] flex flex-row justify-between border-t border-gray-300">
+        <span>
+            <strong>Copyright © 2024 <a href="#" class="text-color-link">Demo</a>.</strong> All rights reserved.
+        </span>
+        <div class="float-right sm:inline-block">
+            <b>Version</b> 9.3.0 [20241113]
         </div>
     </footer>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+    <script>
+        $(document).ready(function () {
+            console.log("jQuery is loaded");
+
+            // Hiển thị/ẩn dropdown khi nhấn vào liên kết
+            $('a[data-toggle="dropdown"]').on('click', function (e) {
+                e.preventDefault();
+                $(this).siblings('.dropdown-menu').toggle(); // Hiển thị hoặc ẩn dropdown
+            });
+
+            // Đóng dropdown nếu nhấn bên ngoài
+            $(document).on('click', function (e) {
+                if (!$(e.target).closest('.dropdown-menu').length && !$(e.target).closest('a[data-toggle="dropdown"]').length) {
+                    $('.dropdown-menu').hide(); // Ẩn tất cả các dropdown
+                }
+            });
+        });
+    </script>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

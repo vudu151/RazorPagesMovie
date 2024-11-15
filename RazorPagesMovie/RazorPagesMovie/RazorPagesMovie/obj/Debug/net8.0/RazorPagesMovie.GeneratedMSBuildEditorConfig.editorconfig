@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ONENET\RazorPagesMovie\RazorPagesMovie\RazorPagesMovie\RazorPagesMovie
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/ONENET/RazorPagesMovie/RazorPagesMovie/RazorPagesMovie/RazorPagesMovie/Pages/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ONENET/RazorPagesMovie/RazorPagesMovie/RazorPagesMovie/RazorPagesMovie/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -64,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ONENET/RazorPagesMovie/RazorPagesMovie/RazorPagesMovie/RazorPagesMovie/Pages/Shared/Components/MovieList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcTW92aWVMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ONENET/RazorPagesMovie/RazorPagesMovie/RazorPagesMovie/RazorPagesMovie/Pages/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ONENET/RazorPagesMovie/RazorPagesMovie/RazorPagesMovie/RazorPagesMovie/Pages/Shared/_ValidationScriptsPartial.cshtml]

@@ -3,92 +3,52 @@
   "WorkspaceRootPath": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\wwwroot\\css\\tailwind.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\wwwroot\\css\\tailwind.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\shared\\components\\movielist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\shared\\components\\movielist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\shared\\components\\movielistviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\shared\\components\\movielistviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\_movieform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\_movieform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\razorpagesmovie.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\data\\razorpagesmoviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\data\\razorpagesmoviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\_movieform.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\_movieform.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\component\\movielist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\component\\movielist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\component\\movielist\\default.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\component\\movielist\\default.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\component\\movielistviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\component\\movielistviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\pages\\movies\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\movies\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|d:\\onenet\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\razorpagesmovie\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{655332F2-99A7-4CF6-BA8A-9C89DF9DADE9}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,280 +70,148 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "RazorPagesMovie\\Pages\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T07:52:23.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T07:21:00.805Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MovieListViewComponent.cs",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Shared\\Components\\MovieListViewComponent.cs",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Shared\\Components\\MovieListViewComponent.cs",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Shared\\Components\\MovieListViewComponent.cs",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Shared\\Components\\MovieListViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T07:47:07.077Z",
-              "EditorCaption": ""
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Accounts\\Login.cshtml",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Accounts\\Login.cshtml",
+              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Accounts\\Login.cshtml",
+              "RelativeToolTip": "RazorPagesMovie\\Pages\\Accounts\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T06:45:25.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "RazorPagesMovie.csproj",
+              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\RazorPagesMovie.csproj",
+              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
+              "RelativeToolTip": "RazorPagesMovie\\RazorPagesMovie.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-13T03:59:54.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Error.cshtml",
+              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Error.cshtml",
+              "RelativeToolTip": "RazorPagesMovie\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T03:53:48.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Privacy.cshtml",
+              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "RazorPagesMovie\\Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T03:53:46.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Index.cshtml",
+              "RelativeToolTip": "RazorPagesMovie\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T03:53:43.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Index.cshtml",
               "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\Index.cshtml",
               "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Index.cshtml",
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Index.cshtml",
-              "ViewState": "AgIAADQAAAAAAAAAAAAswE4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T03:21:01.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Delete.cshtml",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\Delete.cshtml",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Delete.cshtml",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T03:21:01.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\Details.cshtml.cs",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Details.cshtml.cs",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Details.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T03:21:01.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Details.cshtml",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\Details.cshtml",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Details.cshtml",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T03:21:01.037Z"
+              "WhenOpened": "2024-11-13T03:52:37.805Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Create.cshtml",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\Create.cshtml",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Create.cshtml",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RazorPagesMovie\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T03:21:00.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T03:19:19.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_MovieForm.cshtml",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\_MovieForm.cshtml",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\_MovieForm.cshtml",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\_MovieForm.cshtml",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\_MovieForm.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T07:26:50.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Shared\\Components\\MovieList\\Default.cshtml",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Shared\\Components\\MovieList\\Default.cshtml",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Shared\\Components\\MovieList\\Default.cshtml",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Shared\\Components\\MovieList\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T07:49:01.995Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "RazorPagesMovie\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-13T03:18:57.916Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Component\\MovieList\\Default.cshtml",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Component\\MovieList\\Default.cshtml",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Component\\MovieList\\Default.cshtml",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Component\\MovieList\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T07:41:13.605Z",
-              "EditorCaption": ""
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\package.json",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\package.json",
+              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\package.json",
+              "RelativeToolTip": "RazorPagesMovie\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T03:10:23.242Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Edit.cshtml",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\Edit.cshtml",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Edit.cshtml",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Edit.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T03:21:00.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\Delete.cshtml.cs",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Delete.cshtml.cs",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Delete.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T03:21:01.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_MovieForm.cshtml.cs",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\_MovieForm.cshtml.cs",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\_MovieForm.cshtml.cs",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\_MovieForm.cshtml.cs",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\_MovieForm.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T07:46:06.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RazorPagesMovie",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\RazorPagesMovie.csproj",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
-              "RelativeToolTip": "RazorPagesMovie\\RazorPagesMovie.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-11T07:49:34.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RazorPagesMovieContext.cs",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Data\\RazorPagesMovieContext.cs",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Data\\RazorPagesMovieContext.cs",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Data\\RazorPagesMovieContext.cs",
-              "RelativeToolTip": "RazorPagesMovie\\Data\\RazorPagesMovieContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T03:21:00.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\Index.cshtml.cs",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Index.cshtml.cs",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T03:21:01.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MovieListViewComponent.cs",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Component\\MovieListViewComponent.cs",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Component\\MovieListViewComponent.cs",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Component\\MovieListViewComponent.cs",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Component\\MovieListViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T07:40:34.75Z",
+              "Title": "tailwind.css",
+              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\css\\tailwind.css",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\wwwroot\\css\\tailwind.css",
+              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\css\\tailwind.css",
+              "RelativeToolTip": "RazorPagesMovie\\wwwroot\\css\\tailwind.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-13T03:09:36.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Default.cshtml.cs",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Component\\MovieList\\Default.cshtml.cs",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Component\\MovieList\\Default.cshtml.cs",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Component\\MovieList\\Default.cshtml.cs",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Component\\MovieList\\Default.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T07:41:16.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\Edit.cshtml.cs",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Edit.cshtml.cs",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Edit.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T03:21:00.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\Create.cshtml.cs",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Create.cshtml.cs",
-              "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Create.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T03:21:00.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Program.cs",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Program.cs",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Program.cs",
-              "RelativeToolTip": "RazorPagesMovie\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T03:21:00.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Models\\Movie.cs",
-              "RelativeDocumentMoniker": "RazorPagesMovie\\Models\\Movie.cs",
-              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\Models\\Movie.cs",
-              "RelativeToolTip": "RazorPagesMovie\\Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T03:15:01.887Z"
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\tailwind.config.js",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\tailwind.config.js",
+              "ToolTip": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\tailwind.config.js",
+              "RelativeToolTip": "RazorPagesMovie\\tailwind.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-13T03:05:15.574Z"
             }
           ]
         }

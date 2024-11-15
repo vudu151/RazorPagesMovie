@@ -5,13 +5,13 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1 class="text-center text-3xl text-gray-500 uppercase">Index</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
+<div class="mt-6 mb-10">
+    <a asp-page="Create" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Read more</a>
+</div>
 
-<form>
+@* <form>
     <p>
         <select asp-for="MovieGenre" asp-items="Model.Genres">
             <option value="">All</option>
@@ -19,48 +19,69 @@
         <label>Title: <input type="text" asp-for="SearchString" /></label>
         <input type="submit" value="Filter" />
     </p>
+</form> *@
+
+<form class="flex flex-row">
+    <!-- Dropdown for Genre Selection -->
+    <div class="flex items-center">
+        <label for="MovieGenre" class="font-medium text-gray-700">Genre:</label>
+        <select asp-for="MovieGenre" asp-items="Model.Genres" class="border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+            <option value="">All</option>
+        </select>
+    </div>
+
+    <!-- Search Input -->
+    <div class="flex items-center mx-5">
+        <label for="SearchString" class="font-medium text-gray-700">Title:</label>
+        <input type="text" asp-for="SearchString" class="border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" />
+    </div>
+
+    <!-- Submit Button -->
+    <div class="flex justify-start mx-5">
+        <input type="submit" value="Filter" class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+    </div>
 </form>
 
-<table class="table">
-    <thead>
+<table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 mt-5 mb-10">
+    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
         <tr>
-            <th>
+            <th scope="col" class="px-6 py-3">
                 @Html.DisplayNameFor(model => model.Movie[0].Title)
             </th>
-            <th>
+            <th scope="col" class="px-6 py-3">
                 @Html.DisplayNameFor(model => model.Movie[0].ReleaseDate)
             </th>
-            <th>
+                <th scope="col" class="px-6 py-3">
                 @Html.DisplayNameFor(model => model.Movie[0].Genre)
             </th>
-            <th>
+                <th scope="col" class="px-6 py-3">
                 @Html.DisplayNameFor(model => model.Movie[0].Price)
             </th>
-            <th>
+                <th scope="col" class="px-6 py-3">
                 @Html.DisplayNameFor(model => model.Movie[0].Rating)
             </th>
-            <th></th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model.Movie) {
-        <tr>
-            <td>
+        <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+            <td class="px-6 py-4">
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
-            <td>                                                                                                                                                    
+                <td class="px-6 py-4">
                 @Html.DisplayFor(modelItem => item.ReleaseDate)
             </td>
-            <td>
+                <td class="px-6 py-4">
                 @Html.DisplayFor(modelItem => item.Genre)
             </td>
-            <td>
+                <td class="px-6 py-4">
                 @Html.DisplayFor(modelItem => item.Price)
             </td>
-            <td>
+                <td class="px-6 py-4">
                 @Html.DisplayFor(modelItem => item.Rating)
             </td>
-            <td>
+                <td class="px-6 py-4">
                 <a href="/Movies/Edit/2">Edit</a> |
                 <a href="/Movies/Details/2">Details</a> |
                 <a href="/Movies/Delete/2">Delete</a>
@@ -71,11 +92,11 @@
 </table>
 
 
-<div>
+@* <div>
     @await Html.PartialAsync("_MovieForm", new RazorPagesMovie.Models.Movie())
 </div>
 
 
 <div>
     @await Component.InvokeAsync("MovieList")
-</div>
+</div> *@

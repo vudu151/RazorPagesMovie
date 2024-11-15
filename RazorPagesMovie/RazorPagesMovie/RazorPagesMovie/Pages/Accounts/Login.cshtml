@@ -1,0 +1,130 @@
+﻿@page
+@model RazorPagesMovie.Pages.Accounts.LoginModel
+@{
+    Layout = "_LoginLayout";
+}
+
+<div class="custom-card-width flex flex-col justify-center items-center w-360">
+    <div class="text-2.1 mb-0.9 text-center">
+        <a href="#" class="text-color-logo">Demo</a>
+    </div>
+
+    <div class="bg-custom-card w-full rounded shadow-custom-shadow">
+        <div class="bg-transparent border-b border-black/8 p-3.5 px-5 leading-tight border-custom-bottom-card-header">
+            <div class="text-center">
+                <span>
+                    Current tenant:
+                    <span>Not selected</span>
+                    <span>(</span><a href="#" class="text-color-link">Change</a><span>)</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="p-5">
+            <h4 class="text-center text-2xl mb-2 font-normal text-color-text-card">Log in</h4>
+            <form class="box-border m-0 block">
+                <div class="relative flex w-full items-center mb-4">
+                    <input type="text"
+                        class="flex-grow w-full px-3 py-1.5 rounded border border-gray-300 focus:outline-none focus:ring-0 focus:border-ring-focus shadow-none"
+                        placeholder="User name or email">
+                    <div class="absolute py-1.5 right-0 px-3 top-1/2 transform -translate-y-1/2">
+                        <span class="fas fa-user text-color-text-card"></i>
+                    </div>
+                </div>
+
+                <div class="relative flex w-full items-center mb-4">
+                    <input type="password"
+                        class="flex-grow w-full px-3 py-1.5 rounded border border-gray-300 focus:outline-none focus:ring-0 focus:border-ring-focus shadow-none"
+                        placeholder="Password">
+                    <div class="absolute py-1.5 right-0 px-3 top-1/2 transform -translate-y-1/2">
+                        <span class="fas fa-lock text-color-text-card"></span>
+                    </div>
+                </div>
+
+                <div class="flex justify-between flex-wrap">
+                    <div class="inline-flex items-center">
+                        <label class="flex items-center cursor-pointer relative">
+                            <input type="checkbox"
+                                class="peer h-[22px] w-[22px] cursor-pointer transition-all appearance-none border border-slate-300 checked:bg-blue-600 checked:border-blue-600"
+                                id="check1" />
+                            <span
+                                class="absolute inset-0 border-2 border-transparent peer-hover:border-blue-500 peer-checked:border-blue-600 peer-focus:border-blue-500 peer-checked:border-0 peer-checked:border-transparent peer-checked:bg-color-link"></span>
+
+                            <span
+                                class="absolute text-white opacity-0 peer-checked:opacity-100 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20"
+                                    fill="currentColor" stroke="currentColor" stroke-width="1">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </span>
+                        </label>
+                        <label for="check1" class="ml-2 font-bold text-[#666666]">Remember me</label>
+                    </div>
+
+                    <div class="w-1/3 mr-[-10px]">
+                        <button type="submit" id="LoginButton"
+                            class="button-custom-width w-[96.68px] h-[38px] px-3 py-1.5 bg-color-link hover:color-link-hover hover:border-border-color-link-hover text-white font-normal focus:outline-none focus:ring-2 focus:ring-blue-400 ">
+                            Log in
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="py-[18px] px-5 leading-tight bg-custom-card-footer rounded-b">
+            <div class="mx-11 flex flex-wrap justify-center">
+                <a href="#" class="mr-0.5">
+                    <img src="~/flags/vn.png" alt="Vietnam Flag" width="16" height="11" />
+                </a>
+                <a href="#" class="mr-0.5">
+                    <img src="~/flags/us.png" alt="United States Flag" width="16" height="11" />
+                </a>
+                <a href="#" class="mr-0.5">
+                    <img src="~/flags/af.png" alt="Afghanistan Flag" width="16" height="11" />
+                </a>
+                <a href="#" class="mr-0.5">
+                    <img src="~/flags/fr.png" alt="France Flag" width="16" height="11" />
+                </a>
+                <a href="#" class="mr-0.5">
+                    <img src="~/flags/de.png" alt="Germany Flag" width="16" height="11" />
+                </a>
+                <a href="#" class="mr-0.5">
+                    <img src="~/flags/jp.png" alt="Japan Flag" width="16" height="11" />
+                </a>
+                <a href="#" class="mr-0.5">
+                    <img src="~/flags/it.png" alt="Italy Flag" width="16" height="11" />
+                </a>
+                <a href="#" class="mr-0.5">
+                    <img src="~/flags/ca.png" alt="Canada Flag" width="16" height="11" />
+                </a>
+                <a href="#" class="mr-0.5">
+                    <img src="~/flags/in.png" alt="India Flag" width="16" height="11" />
+                </a>
+                <a href="#" class="mr-0.5">
+                    <img src="~/flags/jp.png" alt="Japan Flag" width="16" height="11" />
+                </a>
+                <a href="#" class="mr-0.5">
+                    <img src="~/flags/it.png" alt="Italy Flag" width="16" height="11" />
+                </a>
+                <a href="#" class="mr-0.5">
+                    <img src="~/flags/ca.png" alt="Canada Flag" width="16" height="11" />
+                </a>
+                <a href="#">
+                    <img src="~/flags/in.png" alt="India Flag" width="16" height="11" />
+                </a>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="text-center">
+            <small class="font-normal">© 2024 Demo. <b>Version</b> 9.3.0 [20241113]</small>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,13 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 576px) {
+  .custom-card-width > div {
+    @apply w-[516px];
+  }
+  .button-custom-width {
+    width: 150px;
+    right: 0;
+  }
+}

@@ -11,11 +11,14 @@
     <!-- Thêm FontAwesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+    <!-- SweetAlert2  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
     <link rel="stylesheet" href="~/css/output.css" />
 </head>
 
-<body class="flex flex-col min-h-screen">
-    <nav class="bg-white shadow flex items-center justify-between p-2 ">
+<body class="flex flex-col min-h-screen font-source-sans">
+    <nav class="bg-white flex items-center justify-between p-2 ml-[73.6px] z-10 border-b border-gray-300">
         <ul class="flex px-4 py-2">
             <li>
                 <a class="text-header hover:text-hover-header">
@@ -23,7 +26,7 @@
                 </a>
             </li>
             <li class="sm:block">
-                <a class="px-4 py-2 text-header hover:text-hover-header" href="/">Home page</a>
+                <a class="pl-8 pr-4 py-2 text-header hover:text-hover-header" href="/">Home page</a>
             </li>
             <li class="sm:block">
                 <a class="px-4 py-2 text-header hover:text-hover-header" href="/">About</a>
@@ -113,24 +116,71 @@
     </nav>
 
 
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
-        <a class="brand-link" href="/">
-            <img src="/img/logo.png" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-            <span class="brand-text font-weight-light">Demo</span>
-        </a>
+    <div class="bg-gray-100 flex-grow shadow-lg shadow-aside-shadow">
+        <aside
+            class="main-sidebar bg-aside top-0 bottom-0 left-0 w-[73.6px] fixed h-screen z-20 hover:w-[260px] transition-all duration-500 ease-out">
+            <div class="sidebar flex flex-col h-full">
+
+                <div class="flex items-center justify-center w-full h-[56.67px] border-b-[0.5px] border-header-border ">
+                    <a href="/">
+                        <img src="~/img/logo.png" alt="Logo" class="w-[33px] h-[33px] rounded-full opacity-80">
+                    </a>
+                </div>
+
+                <nav>
+                    <ul class="nav flex-col text-aside-icon">
+                        <li class="nav-item flex flex-col items-center w-full mb-2">
+                            <a href="/" class="flex items-center justify-center w-full h-16">
+                                <img src="~/img/avatar.png" class="w-[33px] h-[33px] rounded-full" alt="User Image">
+                            </a>
+                            <div class="w-[80%] border-b-[0.5px] border-header-border mt-0"></div>
+                        </li>
+
+                        <li class="nav-item flex items-center justify-center pt-4 pb-3">
+                            <a href="/" class="flex items-center justify-center">
+                                <i class="fas fa-info-circle"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item flex items-center justify-center py-3">
+                            <a href="/" class="flex items-center justify-center">
+                                <i class="fas fa-home"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item flex items-center justify-center py-3">
+                            <a href="/" class="flex items-center justify-center">
+                                <i class="fas fa-building"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item flex items-center justify-center py-3">
+                            <a href="/" class="flex items-center justify-center">
+                                <i class="fas fa-users"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item flex items-center justify-center py-3">
+                            <a href="/" class="flex items-center justify-center">
+                                <i class="fas fa-theater-masks"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item flex items-center justify-center py-3">
+                            <a href="#" class="flex items-center justify-center">
+                                <i class="fas fa-circle"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </aside>
 
 
-    </aside>
-
-
-    <div class="bg-gray-100 flex-grow">
-        <main role="main">
+        <main role="main" class="ml-[73.6px]">
             @RenderBody()
         </main>
     </div>
 
 
-    <footer class="p-4 bg-white text-[#869099] flex flex-row justify-between border-t border-gray-300">
+    <footer class="p-4 bg-white text-[#869099] flex flex-row justify-between border-t border-gray-300 ml-[73.6px] z-10">
         <span>
             <strong>Copyright © 2024 <a href="#" class="text-color-link">Demo</a>.</strong> All rights reserved.
         </span>
@@ -141,6 +191,10 @@
 
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- SweetAlert2  -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
     <script>
         $(document).ready(function () {

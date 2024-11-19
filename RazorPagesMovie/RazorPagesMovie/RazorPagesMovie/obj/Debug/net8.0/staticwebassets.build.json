@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RDAxG9p7WeVdm/btP87UIOOHFpSBb6QSzfDppKVnCm0=",
+  "Hash": "YlJRuKxfQZRo5YFa0UQz/MMlvkY68vQ1LQ2GZ0jCABU=",
   "Source": "RazorPagesMovie",
   "BasePath": "_content/RazorPagesMovie",
   "Mode": "Default",
@@ -9610,6 +9610,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\avatar.png"
+    },
+    {
+      "Identity": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\img\\logo.png",
+      "SourceId": "RazorPagesMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\",
+      "BasePath": "_content/RazorPagesMovie",
+      "RelativePath": "img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
       "Identity": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\js\\site.js",

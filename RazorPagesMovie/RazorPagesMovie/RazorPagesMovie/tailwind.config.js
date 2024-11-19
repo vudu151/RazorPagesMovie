@@ -21,27 +21,17 @@ module.exports = {
 
                 //Layout & Crud
                 "header": "#828180",
-                "hover-header" : "rgba(0, 0, 0, 0.7)"
+                "hover-header" : "rgba(0, 0, 0, 0.7)",
+                "aside": "#343a40",
+                'header-border': 'rgba(222, 226, 230, 0.2)',
+                'aside-icon': "#c2c7d1",
+                "aside-shadow": '4px 0 10px rgba(0, 0, 0, 0.5)',
+                "custom-border": 'rgba(242, 242, 242, 0.8)'
               },
-              sans: [
-                //Login & _LayoutLogin
-                '"Source Sans Pro"', 
-                '-apple-system', 
-                'BlinkMacSystemFont', 
-                '"Segoe UI"', 
-                'Roboto', 
-                '"Helvetica Neue"', 
-                'Arial', 
-                'sans-serif', 
-                '"Apple Color Emoji"', 
-                '"Segoe UI Emoji"', 
-                '"Segoe UI Symbol"'
-
-                //Layout & Crud
-            ],
             width: {
                 //Login & _LayoutLogin
                 '360': '360px',  
+                '-116': '-116px',
 
                 //Layout & Crud
             },
@@ -50,6 +40,7 @@ module.exports = {
                 '2.1': '2.1rem',
 
                 //Layout & Crud
+                '26': '26px'
             },
             spacing: {
                 //Login & _LayoutLogin
@@ -63,6 +54,9 @@ module.exports = {
 
                 //Layout & Crud
               },
+            fontFamily: {
+            'source-sans': ['"Source Sans Pro"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"'],
+            }
         },
     },
     plugins: [],

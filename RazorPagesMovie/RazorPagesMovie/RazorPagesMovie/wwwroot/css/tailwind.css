@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Login */
 @media (max-width: 576px) {
   .custom-card-width > div {
     @apply w-[516px];
@@ -11,3 +12,5 @@
     right: 0;
   }
 }
+
+/* Layout & CRUD User */

@@ -2017,6 +2017,10 @@
       "PackagePath": "staticwebassets\\img\\avatar.png"
     },
     {
+      "Id": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
       "Id": "D:\\ONENET\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

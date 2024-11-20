@@ -4,8 +4,6 @@
     ViewData["Title"] = "Home page";
 }
 
-
-
 <div class="min-h-[410px] p-4">
 
     <section class="mb-4">
@@ -20,8 +18,6 @@
             </div>
         </div>
     </section>
-
-
 
     <section>
         <div class="mt-[-4px] mx-auto">
@@ -67,15 +63,15 @@
                                         </thead>
                                         <tbody class="bg-white">
                                             <tr class="h-12 text-left whitespace-nowrap">
-                                                <td class="border p-2">admin</td>
-                                                <td class="border p-2">admin admin</td>
-                                                <td class="border p-2">
+                                                <td class="border p-2" data-user-name="admin">admin</td>
+                                                <td class="border p-2" data-user-fullname="admin admin">admin admin</td>
+                                                <td class="border p-2" data-user-email="admin@aspnetboilerplate.com">
                                                     admin@aspnetboilerplate.com</td>
                                                 <td class="border p-2 pr-4">
                                                     <input type="checkbox" disabled checked>
                                                 </td>
                                                 <td class="border p-2 text-sm">
-                                                    <button type="button"
+                                                    <button type="button" id="editUserLink"
                                                         class="bg-[#6c757d] hover:bg-gray-400 text-white font-bold py-1.5 px-2 rounded"
                                                         data-user-id="1" data-toggle="modal"
                                                         data-target="#UserEditModal">
@@ -97,13 +93,13 @@
                                                     <input type="checkbox" disabled checked>
                                                 </td>
                                                 <td class="border p-2 text-sm">
-                                                    <button type="button"
+                                                    <button type="button" id="editUserLink"
                                                         class="bg-[#6c757d] hover:bg-gray-400 text-white font-bold py-1.5 px-2 rounded"
                                                         data-user-id="1" data-toggle="modal"
                                                         data-target="#UserEditModal">
                                                         <i class="fas fa-pencil-alt"></i> Edit
                                                     </button>
-                                                    <button type="button" id="deleteUserButton"
+                                                    <button type="button"
                                                         class="bg-red-500 hover:bg-red-600 text-white font-bold py-1.5 px-2 rounded"
                                                         data-user-id="1" data-user-name="admin">
                                                         <i class="fas fa-trash"></i> Delete
@@ -177,7 +173,7 @@
             id="modalContent">
             <div class="p-4 border-b flex justify-between items-center">
                 <h5 class="text-xl font-normal text-[#212529]">Create new user</h5>
-                <button id="closeModal" class="text-gray-500 hover:text-gray-700">
+                <button id="closeCreateModal" class="text-gray-500 hover:text-gray-700">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
             </div>
@@ -186,11 +182,11 @@
                 <ul class="flex border-b">
                     <li class="py-2 px-4">
                         <button type="button" class="tablink active" data-tab="create-user-details"
-                            onclick="showTab(event, 'create-user-details')">User details</button>
+                            onclick="showTabCreate(event, 'create-user-details')">User details</button>
                     </li>
                     <li class="py-2 px-4">
                         <button type="button" class="tablink text-[#3990ff]" data-tab="create-user-roles"
-                            onclick="showTab(event, 'create-user-roles')">User roles</button>
+                            onclick="showTabCreate(event, 'create-user-roles')">User roles</button>
                     </li>
                 </ul>
 
@@ -246,7 +242,81 @@
                 </div>
                 <div class="border-t">
                     <div class="mt-4 flex flex-row justify-between">
-                        <button type="button" id="cancelModal"
+                        <button type="button" id="cancelCreateModal"
+                            class="bg-[#f8f9fa] hover:bg-[#e9ecef] text-gray-800 px-3 py-1.5 rounded  border border-gray-300">Cancel</button>
+                        <button type="submit"
+                            class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1.5 rounded">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal Edit -->
+    <div id="UserEditModal"
+        class="fixed inset-0 flex items-start justify-center bg-black bg-opacity-50 hidden transition-opacity duration-300 z-50">
+        <div class="bg-white rounded shadow-lg max-w-full w-5/12 transform -translate-y-full transition-transform duration-300 mt-7"
+            id="modalEditContent">
+            <div class="p-4 border-b flex justify-between items-center">
+                <h5 class="text-xl font-normal text-[#212529]">Edit user</h5>
+                <button id="closeEditModal" class="text-gray-500 hover:text-gray-700">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <form name="userEditForm" class="p-4" novalidate>
+
+                <ul class="flex border-b">
+                    <li class="py-2 px-4">
+                        <button type="button" class="tablinkEdit active" data-tab-edit="edit-user-details"
+                            onclick="showTabEdit(event, 'edit-user-details')">User details</button>
+                    </li>
+                    <li class="py-2 px-4">
+                        <button type="button" class="tablinkEdit text-[#3990ff]" data-tab-edit="edit-user-roles"
+                            onclick="showTabEdit(event, 'edit-user-roles')">User roles</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content mt-4">
+                    <div class="tab-pane-edit active text-base font-semibold mb-10" id="edit-user-details">
+                        <div class="flex justify-between items-center mt-6 mb-4">
+                            <label class="block">User name <span class="text-red-700">*</span></label>
+                            <input type="text"
+                                class="border border-gray-300 rounded px-3 py-1.5 w-3/4 focus:outline-none focus:ring-0 focus:border-ring-focus shadow-none"
+                                name="UserName" required maxlength="256" minlength="2" aria-invalid="false">
+                        </div>
+                        <div class="flex justify-between items-center mb-4">
+                            <label class="block">Name <span class="text-red-700">*</span></label>
+                            <input type="text"
+                                class="border border-gray-300 rounded px-3 py-1.5 w-3/4 focus:outline-none focus:ring-0 focus:border-ring-focus shadow-none"
+                                name="Name" required maxlength="256" minlength="2" aria-invalid="false">
+                        </div>
+                        <div class="flex justify-between items-center mb-4">
+                            <label class="block">Surname <span class="text-red-700">*</span></label>
+                            <input type="text"
+                                class="border border-gray-300 rounded px-3 py-1.5 w-3/4 focus:outline-none focus:ring-0 focus:border-ring-focus shadow-none"
+                                name="Surname" required maxlength="256" minlength="2" aria-invalid="false">
+                        </div>
+                        <div class="flex justify-between items-center mb-4">
+                            <label class="block">Email address <span class="text-red-700">*</span></label>
+                            <input type="email"
+                                class="border border-gray-300 rounded px-3 py-1.5 w-3/4 focus:outline-none focus:ring-0 focus:border-ring-focus shadow-none"
+                                name="Email" required>
+                        </div>
+                        <div class="flex justify-start items-center mb-4">
+                            <label class="block">Is active</label>
+                            <input type="checkbox" class="ml-[136px]" name="IsActive" value="true" checked>
+                        </div>
+                    </div>
+                    <div class="tab-pane-edit hidden mb-6" id="edit-user-roles">
+                        <div class="flex items-center mb-2">
+                            <input type="checkbox" name="role" id="role-1" value="ADMIN" class="mr-1">
+                            <label for="role-1" class="font-semibold">Admin</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-t">
+                    <div class="mt-4 flex flex-row justify-between">
+                        <button type="button" id="cancelEditModal"
                             class="bg-[#f8f9fa] hover:bg-[#e9ecef] text-gray-800 px-3 py-1.5 rounded  border border-gray-300">Cancel</button>
                         <button type="submit"
                             class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1.5 rounded">Save</button>
@@ -279,10 +349,30 @@
                 }, 500);
             });
 
-            //3.Đóng modal
-            document.getElementById('closeModal').addEventListener('click', closeModal);
-            document.getElementById('cancelModal').addEventListener('click', closeModal);
-            function closeModal() {
+            //3. Chuyển đổi giữa các tab create
+            const tabsCreate = document.querySelectorAll('.tablink');
+            const tabCreatePanes = document.querySelectorAll('.tab-pane');
+            function showTabCreate(event, targetTab) {
+                tabCreatePanes.forEach(pane => pane.classList.add('hidden'));
+
+                tabsCreate.forEach(tab => {
+                    tab.classList.remove('active', 'text-[#495057]');
+                    tab.classList.add('text-[#3990ff]');
+                });
+
+                document.getElementById(targetTab).classList.remove('hidden');
+                event.currentTarget.classList.add('active', 'text-[#495057]');
+            }
+            tabsCreate.forEach(tab => {
+                tab.addEventListener('click', function () {
+                    showTabCreate(event, this.getAttribute('data-tab'));
+                });
+            });
+
+            //4.Đóng modal create
+            document.getElementById('closeCreateModal').addEventListener('click', closeCreateModal);
+            document.getElementById('cancelCreateModal').addEventListener('click', closeCreateModal);
+            function closeCreateModal() {
                 const modal = document.getElementById('UserCreateModal');
                 const modalContent = document.getElementById('modalContent');
 
@@ -294,14 +384,40 @@
                 }, 300);
             }
 
+            //5.Gán sự kiện click cho nút "Edit"
+            document.getElementById('editUserLink').addEventListener('click', function () {
+                const modal = document.getElementById('UserEditModal');
+                const modalContent = document.getElementById('modalEditContent');
 
-            // 4. Chuyển đổi giữa các tab
-            const tabs = document.querySelectorAll('.tablink');
-            const tabPanes = document.querySelectorAll('.tab-pane');
-            function showTab(event, targetTab) {
-                tabPanes.forEach(pane => pane.classList.add('hidden'));
+                // Lấy dữ liệu từ bảng và điền vào các ô input trong modal
+                const userName = document.querySelector('tr [data-user-name]').getAttribute('data-user-name');
+                const userFullname = document.querySelector('tr [data-user-fullname]').getAttribute('data-user-fullname');
+                const userEmail = document.querySelector('tr [data-user-email]').getAttribute('data-user-email');
 
-                tabs.forEach(tab => {
+                modal.querySelectorAll('input').forEach(input => {
+                    input.classList.add('text-gray-300');
+                    input.classList.add('font-normal');
+                });
+                modal.querySelector('input[name="UserName"]').value = userName;
+                modal.querySelector('input[name="Name"]').value = userFullname.split(' ')[0];
+                modal.querySelector('input[name="Surname"]').value = userFullname.split(' ')[1];
+                modal.querySelector('input[name="Email"]').value = userEmail;
+
+                // Hiển thị modal và áp dụng hiệu ứng
+                modal.classList.remove('hidden');
+                setTimeout(() => {
+                    modal.classList.remove('opacity-0');
+                    modalContent.classList.remove('-translate-y-full');
+                }, 500);
+            });
+
+            //6. Chuyển đổi giữa các tab edit
+            const tabsEdit = document.querySelectorAll('.tablinkEdit');
+            const tabEditPanes = document.querySelectorAll('.tab-pane-edit');
+            function showTabEdit(event, targetTab) {
+                tabEditPanes.forEach(pane => pane.classList.add('hidden'));
+
+                tabsEdit.forEach(tab => {
                     tab.classList.remove('active', 'text-[#495057]');
                     tab.classList.add('text-[#3990ff]');
                 });
@@ -309,14 +425,28 @@
                 document.getElementById(targetTab).classList.remove('hidden');
                 event.currentTarget.classList.add('active', 'text-[#495057]');
             }
-            tabs.forEach(tab => {
+            tabsEdit.forEach(tab => {
                 tab.addEventListener('click', function () {
-                    showTab(event, this.getAttribute('data-tab'));
+                    showTabEdit(event, this.getAttribute('data-tab-edit'));
                 });
             });
 
+            //7.Đóng modal edit
+            document.getElementById('closeEditModal').addEventListener('click', closeEditModal);
+            document.getElementById('cancelEditModal').addEventListener('click', closeEditModal);
+            function closeEditModal() {
+                const modal = document.getElementById('UserEditModal');
+                const modalContent = document.getElementById('modalEditContent');
 
-            //5. Delete
+                // Thêm lại hiệu ứng khi đóng
+                modalContent.classList.add('-translate-y-full');
+                setTimeout(() => {
+                    modal.classList.add('hidden');
+                    modal.classList.add('opacity-0');
+                }, 300);
+            }
+
+            //8. Delete
             document.getElementById('deleteUserButton').addEventListener('click', () => {
                 Swal.fire({
                     icon: 'warning',
@@ -330,9 +460,10 @@
                     customClass: {
                         popup: 'rounded-lg shadow-lg p-4',
                         title: 'text-xl font-bold text-gray-800',
-                        content: 'text-gray-600',
-                        actions: 'flex justify-end space-x-2', // Adjust spacing between buttons
-                        cancelButton: 'font-semibold text-gray-500', // Font weight for Cancel button
+                        content: 'text-gray-600 mb-4',
+                        actions: 'flex justify-end space-x-4 absolute bottom-0 right-4',
+                        cancelButton: 'font-semibold text-gray-500 order-first px-4 py-2',
+                        confirmButton: 'font-semibold text-blue-600 order-last px-4 py-2 right-4'
                     }
                 });
             });
